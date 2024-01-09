@@ -9,14 +9,16 @@ The overall framework for CVNet.
 
 - Please put the  change vectorization datasets into datasets folder.
 - The datasets folder is constructed as follows:
-
-  -- indian_pines
-  
-  ---- indian_pines.mat
-  
-  ---- indian_pines_gt.mat
-  
-  ---- indian_pines_coco.json
+data
+  -- LEVIR_VectorCD
+  ---- train
+  ------ A
+  ------ B
+  ------ annotation.json
+  ---- val
+  ------ A
+  ------ B
+  ------ annotation.json
 
 2. Run inference.py to inference the vectorization results.
 
