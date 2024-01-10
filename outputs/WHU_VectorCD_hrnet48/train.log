@@ -1,0 +1,24 @@
+2024-01-10 16:30:12,632 training INFO: Namespace(clean=False, config_file='config-files/WHU_VectorCD_hrnet48.yaml', local_rank=1, model='last', opts=[], seed=2)
+2024-01-10 16:30:12,632 training INFO: Loaded configuration file config-files/WHU_VectorCD_hrnet48.yaml
+2024-01-10 16:30:12,632 training INFO: Saving config into: ./outputs/WHU_VectorCD_hrnet48/config.yml
+2024-01-10 16:30:12,645 training INFO: Namespace(clean=False, config_file='config-files/WHU_VectorCD_hrnet48.yaml', local_rank=0, model='last', opts=[], seed=2)
+2024-01-10 16:30:12,645 training INFO: Loaded configuration file config-files/WHU_VectorCD_hrnet48.yaml
+2024-01-10 16:30:12,645 training INFO: Saving config into: ./outputs/WHU_VectorCD_hrnet48/config.yml
+2024-01-10 16:31:26,022 training INFO: Namespace(clean=False, config_file='config-files/WHU_VectorCD_hrnet48.yaml', local_rank=0, model='last', opts=[], seed=2)
+2024-01-10 16:31:26,023 training INFO: Loaded configuration file config-files/WHU_VectorCD_hrnet48.yaml
+2024-01-10 16:31:26,023 training INFO: Saving config into: ./outputs/WHU_VectorCD_hrnet48/config.yml
+2024-01-10 16:31:26,024 training INFO: Namespace(clean=False, config_file='config-files/WHU_VectorCD_hrnet48.yaml', local_rank=1, model='last', opts=[], seed=2)
+2024-01-10 16:31:26,025 training INFO: Loaded configuration file config-files/WHU_VectorCD_hrnet48.yaml
+2024-01-10 16:31:26,025 training INFO: Saving config into: ./outputs/WHU_VectorCD_hrnet48/config.yml
+2024-01-10 16:31:30,184 training INFO: No checkpoint found. Initializing model from scratch
+2024-01-10 16:31:30,201 training INFO: No checkpoint found. Initializing model from scratch
+2024-01-10 16:42:26,099 training INFO: Namespace(clean=False, config_file='config-files/WHU_VectorCD_hrnet48.yaml', local_rank=1, model='last', opts=[], seed=2)
+2024-01-10 16:42:26,099 training INFO: Loaded configuration file config-files/WHU_VectorCD_hrnet48.yaml
+2024-01-10 16:42:26,100 training INFO: Saving config into: ./outputs/WHU_VectorCD_hrnet48/config.yml
+2024-01-10 16:42:26,118 training INFO: Namespace(clean=False, config_file='config-files/WHU_VectorCD_hrnet48.yaml', local_rank=0, model='last', opts=[], seed=2)
+2024-01-10 16:42:26,118 training INFO: Loaded configuration file config-files/WHU_VectorCD_hrnet48.yaml
+2024-01-10 16:42:26,118 training INFO: Saving config into: ./outputs/WHU_VectorCD_hrnet48/config.yml
+2024-01-10 16:42:30,047 training INFO: No checkpoint found. Initializing model from scratch
+2024-01-10 16:42:30,092 training INFO: No checkpoint found. Initializing model from scratch
+2024-01-10 16:42:41,630 training INFO: eta: 1 day, 16:22:29 epoch: 1 iter: 0 data: 5.3568 (5.3568) loss: 7.8871 (7.8871) loss_jloc: 0.0850 (0.0850) loss_joff: 0.1413 (0.1413) loss_mask_BE: 0.7030 (0.7030) loss_mask_CD: 0.7207 (0.7207) time: 11.5348 (11.5348) lr: 0.000100 max mem: 15856
+

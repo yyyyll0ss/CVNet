@@ -1,0 +1,41 @@
+SOLVER:
+  IMS_PER_BATCH: 1 #  4
+  BASE_LR: 1e-4 #
+  MAX_EPOCH: 25
+  STEPS: (22,)
+  WEIGHT_DECAY: 0.0001
+  CHECKPOINT_PERIOD: 1
+  OPTIMIZER: "ADAM"
+  AMSGRAD: True
+
+DATALOADER:
+  NUM_WORKERS: 8
+
+DATASETS:
+  IMAGE:
+    PIXEL_MEAN: [127.248, 127.258, 123.932]
+    PIXEL_STD: [57.201, 54.675, 58.008]
+    TO_255: True
+    HEIGHT: 512
+    WIDTH: 512
+  TARGET:
+    HEIGHT: 128
+    WIDTH: 128
+  ORIGIN:
+    HEIGHT: 256
+    WIDTH: 256
+  TRAIN: ("LEVIR_VectorCD_train",)
+  TEST: ("LEVIR_VectorCD_test",)
+
+MODEL:
+  NAME: "HRNet48v2"
+  HEAD_SIZE: [[2]]
+  OUT_FEATURE_CHANNELS: 256
+  LOSS_WEIGHTS:
+    loss_joff: 0.25
+    loss_jloc: 8.0
+    loss_mask_CD: 8.0
+    loss_mask_BE: 2.0
+
+
+OUTPUT_DIR: "./outputs/LEVIR_VectorCD_hrnet48_aug"

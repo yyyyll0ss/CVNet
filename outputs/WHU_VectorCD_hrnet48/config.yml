@@ -1,0 +1,56 @@
+DATALOADER:
+  NUM_WORKERS: 8
+DATASETS:
+  IMAGE:
+    HEIGHT: 512
+    PIXEL_MEAN:
+    - 127.248
+    - 127.258
+    - 123.932
+    PIXEL_STD:
+    - 57.201
+    - 54.675
+    - 58.008
+    TO_255: true
+    WIDTH: 512
+  ORIGIN:
+    HEIGHT: 300
+    WIDTH: 300
+  ROTATE_F: false
+  TARGET:
+    HEIGHT: 128
+    WIDTH: 128
+  TEST:
+  - WHU_VectorCD_test
+  TRAIN:
+  - WHU_VectorCD_train
+  VAL:
+  - crowdai_train_small
+MODEL:
+  DEVICE: cuda
+  HEAD_SIZE:
+  - - 2
+  LOSS_WEIGHTS:
+    loss_jloc: 8.0
+    loss_joff: 0.25
+    loss_mask_BE: 2.0
+    loss_mask_CD: 8.0
+  NAME: HRNet48v2
+  OUT_FEATURE_CHANNELS: 256
+OUTPUT_DIR: ./outputs/WHU_VectorCD_hrnet48
+SOLVER:
+  AMSGRAD: true
+  BACKBONE_LR_FACTOR: 1.0
+  BASE_LR: 0.0001
+  BIAS_LR_FACTOR: 1
+  CHECKPOINT_PERIOD: 1
+  GAMMA: 0.1
+  IMS_PER_BATCH: 4
+  MAX_EPOCH: 25
+  MOMENTUM: 0.9
+  OPTIMIZER: ADAM
+  STATIC_STEP: 25
+  STEPS:
+  - 22
+  WEIGHT_DECAY: 0.0001
+  WEIGHT_DECAY_BIAS: 0
