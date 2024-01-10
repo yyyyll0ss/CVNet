@@ -69,7 +69,7 @@ python tools/evaluation.py --gt-file [GT_ANNOTATION_FILE] --dt-file [PREDICT_ANN
 ```
 ## Acknowledgement
 This repo benefits from 
-[HiSup] (https://github.com/SarahwXU/HiSup),
+[HiSup](https://github.com/SarahwXU/HiSup),
 [ECA-Net](https://github.com/BangguWu/ECANet),
 [HR-Net](https://github.com/HRNet/HRNet-Image-Classification),
 [boundary iou api](https://github.com/bowenc0221/boundary-iou-api). We thank the authors for their great work.
