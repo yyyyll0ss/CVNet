@@ -25,7 +25,7 @@ For evaluation with boundary IoU, please install boundary IoU API following [the
 - LEVIR-Vector-CD: https://pan.baidu.com/s/13loTooaG0hK5zukgVe1sVw   code：ikls
 
  Please put the change vectorization datasets into datasets folder. The datasets folder is constructed as follows:
-
+```
 code_root/
 └── data/
     └── WHU_VectorCD/
@@ -46,7 +46,7 @@ code_root/
             ├── A
             ├── B
             └── annotation.json
-        
+```     
 
 ### Training
 The model with HRNetV2 as backbone are initialized with imagenet pretrained parameters. You could download them from https://github.com/HRNet/HRNet-Image-Classification and put them in the path of 
