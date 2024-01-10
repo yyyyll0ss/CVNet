@@ -9,16 +9,16 @@ The overall framework for CVNet.
 
 - Please put the  change vectorization datasets into datasets folder.
 - The datasets folder is constructed as follows:
-data
-  -- LEVIR_VectorCD
-  ---- train
-  ------ A
-  ------ B
-  ------ annotation.json
-  ---- val
-  ------ A
-  ------ B
-  ------ annotation.json
+```
+code_root/
+└── data/
+    └── LEVIR_VectorCD/
+        ├── train/
+        └── val/
+            ├── A
+            ├── B
+            └── annotation.json
+```
 
 2. Run inference.py to inference the vectorization results.
 
